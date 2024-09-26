@@ -1,0 +1,69 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #0d51a3;
+}
+.card{
+    width: 100%;
+    max-width: 470PX; 
+    background: linear-gradient(90deg,#5290dc,#4832d7);
+    color:#fff;
+    margin: 0px auto 0;
+    border-radius: 20px;
+    padding: 30px 35px;
+    text-align: center;
+
+}
+.search{
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.search input{
+    border: 0;
+    outline: 0;
+    background:#ebfffc;
+    color:#555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 30px;
+    flex:1;
+    margin-right: 16px;
+    font-size: 18px ;
+}
+.search button {
+    background: none;
+    border: none;
+    padding: 0;
+    border-radius: 50%; /* Ensures the button is circular */
+    width: 60px; /* Set a fixed width */
+    height:60px; /* Set a fixed height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search button img {
+    width: 70px; /* Width of the image */
+    height: 70px; /* Height of the image */
+    border-radius: 50%; /* Optionally, you can round the image itself, though not necessary if button is round */
+}
+.details{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px;
+    margin-top: 50px;
+}
+.weather-icon{
+    width: 120px;
+    margin-top: 30px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align:left;
+}
